@@ -6,6 +6,8 @@
     <title>Add employee</title>
     <link rel="stylesheet" href="../assets/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/datatables.min.css">
+    <link rel="stylesheet" href="../assets/css/datatables-select.min.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
@@ -150,34 +152,22 @@
               <div class="row mt-5">
                 <div class="col-12">
                   <div class="table-wrapper">
-                    <table class="table table-striped">
+                    <table   id="sortTable" class="table table-striped">
                       <thead>
                       <tr>
                         <th scope="col">
                           <div class="d-flex align-items-center justify-content-between">
                             <p class="">Ф.И.О</p>
-                            <div class="d-flex flex-column">
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
-                           </div>
                           </div>
                         </th>
                         <th scope="col">
                           <div class="d-flex align-items-center justify-content-between">
                             <p class="">Привилегии</p>
-                            <div class="d-flex flex-column">
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
-                            </div>
                           </div>
                     </th>
                         <th scope="col">
                           <div class="d-flex align-items-center justify-content-between">
                             <p class="">Номер телефона</p>
-                            <div class="d-flex flex-column">
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
-                              <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
-                           </div>
                           </div>
                       </th>
                       <th>
@@ -202,25 +192,6 @@
                     </tbody>
                   </table>
                 </div>
-                   <!-- Pagination -->
-              <div class="row mt-5">
-                <div class="col-12">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-end">
-                      <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">Предыдущий</a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">4</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">Следующий</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
                 </div>
               </div>
               <!-- End custom -->
@@ -229,5 +200,11 @@
       </div>
       <!-- END CONTENT -->
     </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/datatables-select.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+      <script src="../assets/js/mdb.min.js"></script>
+        <script src="../assets/js/datatables.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
