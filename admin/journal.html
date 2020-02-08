@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <!-- SIDEDRAWER -->
+    <aside class="aside">
+      <ul class="w-100">
+        <li class="active"><a href="#" class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../assets/images/icons/journal.png" alt="Journal" class="icon"><h4 class="ml-2 mb-0">Журнал</h4></a></li>
+        <li><a href="#" class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../assets/images/icons/registration.png" alt="Registration" class="icon"><h4 class="ml-2 mb-0">Регистрация</h4></a></li>
+        <li><a href="#" class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../assets/images/icons/protocols.png" alt="Protocols" class="icon"><h4 class="ml-2 mb-0">Протоколы</h4></a></li>
+        <li><a href="#" class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../assets/images/icons/users.png" alt="Users" class="icon"><h4 class="ml-2 mb-0">Пользователи</h4></a></li>
+      </ul>
+      <div class="settings w-100">
+        <!-- Icon -->
+        <a href="#" class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../assets/images/icons/settings.png" alt="Settings" class="icon"><h4 class="ml-2 mb-0">Настройки</h4></a>
+      </div>
+    </aside>
+    <!-- END SIDEDRAWER -->
+    
+    <div class="wrapper">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+        <div class="logo">
+          <!-- logo -->
+          <img src="../assets/images/logo.png" class="img-fluid img-logo">
+          <img src="../assets/images/logo-mobile.png" class="img-fluid img-logo-mobile">
+        </div>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-between align-items-center navigation-items">
+            <li class="nav-item">
+              <!-- time and date -->
+              <div class="date d-flex align-items-center">
+                <div class="mr-5 d-flex align-items-center"><img src="../assets/images/icons/calendar.png" alt="Calendar" class="icon"><p class="ml-2">01 февраль 2020</p></div>
+                <div class=" d-flex align-items-center"><img src="../assets/images/icons/clock.png" alt="Clock" class="icon"><p class="ml-2">18:30</p></div>
+              </div>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">
+                <p class="add "><i class="fas fa-plus"></i> Добавить</p>
+              </a>
+              <!-- notifications -->
+              <a href="#" class="d-flex align-items-center ml-3">
+                <div class="notification">
+                  <span></span>
+                  <img src="../assets/images/icons/notification.png" alt="Notifications" class="icon">
+                </div>
+                <p class="ml-1" style="color: black">Уведомления</p>
+              </a>
+              <span class="mr-3 ml-3">|</span>
+               <!-- name and photo -->
+              <a href="#" class="nav-profile d-flex align-items-center">
+                <p class="mr-2">Scarlett Lane</p>
+                <img src="../assets/images/profile.png" alt="profile">
+              </a>
+            </li>
+           
+          </ul>
+          
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+
+      <!-- CONTENT -->
+      <div class="content">
+          <div class="row">
+              <div class="col-12">
+               
+                <div class="d-flex align-items-center mb-3 mt-4">
+                  <div class="d-flex align-items-center header mr-5">
+                    <img src="../assets/images/icons/journal.png" alt="Journal" class="icon">
+                    <h3 class="ml-2 font-weight-bold">Журнал</h3>
+                  </div>
+                  <!-- Additional -->
+                  <ul class="filter d-flex align-items-center mr-auto">
+                    <li class="active"><a href="#">Все</a></li>
+                    <li><a href="#">В ожидании</a></li>
+                    <li><a href="#">В процессе</a></li>
+                    <li><a href="#">Завершено</a></li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  <!-- End Additional -->
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+               <!-- Custom -->
+              <div class="table-wrapper">
+                <table class="table table-striped">
+                  <thead>
+                  <tr>
+                    <th scope="col">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class=""> Номер протокола</p>
+                        <div class="d-flex flex-column">
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
+                       </div>
+                      </div>
+                    </th>
+                    <th scope="col">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class=""> Акт отбора</p>
+                        <div class="d-flex flex-column">
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
+                        </div>
+                      </div>
+                </th>
+                    <th scope="col">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class=""> Продукт</p>
+                        <div class="d-flex flex-column">
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
+                       </div>
+                      </div>
+                  </th>
+                    <th scope="col">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class=""> Организация</p>
+                        <div class="d-flex flex-column">
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
+                        </div>
+                       </div>
+                  </th>
+                    <th scope="col">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class=""> Дата</p>
+                        <div class="d-flex flex-column">
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-up"></i></a>
+                          <a href="#" class="d-flex carets"><i class="fas fa-caret-down"></i></a>
+                        </div>
+                      </div>
+                  </th>
+                  <th>
+                  </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <a href="#">
+                    <tr class="yellow">
+                      <th scope="row">2729</th>
+                      <td>11/20</td>
+                      <td>Мясные изделия</td>
+                      <td>Koinot-Markazi XK</td>
+                      <td><div>12/15/15</div></td>
+                      <td><a href="#" class="d-flex carets float-right"><i class="fas fa-pen"></i></a></td>
+                    </tr>
+                  </a>
+                 
+                    <tr class="green clickable-row" data-href='http://a.com'>
+                      <th scope="row">2729</th>
+                      <td>11/20</td>
+                      <td>Мясные изделия</td>
+                      <td>Koinot-Markazi XK</td>
+                      <td><div>12/15/15</div></td>
+                      <td><a href="#" class="d-flex carets float-right"><i class="fas fa-pen"></i></a></td>
+
+
+                    </tr>
+              
+                  <tr>
+                    <th scope="row">2729</th>
+                    <td>11/20</td>
+                    <td>Мясные изделия</td>
+                    <td>Koinot-Markazi XK</td>
+                    <td><div>12/15/15</div></td>
+                    <td><a href="#" class="d-flex carets float-right"><i class="fas fa-pen"></i></a></td>
+                  </tr>
+                 
+                    
+               
+                </tbody>
+              </table>
+            </div>
+               <!-- Pagination -->
+          <div class="row mt-5">
+            <div class="col-12">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Предыдущий</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Следующий</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- End Custom -->
+            </div>
+          </div>
+
+         
+      </div>
+      <!-- END CONTENT -->
+    </div>
+</body>
+</html>
