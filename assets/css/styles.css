@@ -33,6 +33,23 @@ p {
 button,
 a {
 	transition: 0.25s ease all;
+	color: black;
+}
+.nostyle {
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.underline:hover {
+	text-decoration: underline;
+	color: #0070af;
+}
+.clickable-row {
+	cursor: pointer;
+	transition: .25s background ease;
+}
+.clickable-row:hover {
+	background: #f9c80e !important;
 }
 .accent {
 	color: #f9c80e;
